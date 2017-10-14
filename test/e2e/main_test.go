@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"k8s.io/client-go/pkg/api"
+	api "k8s.io/api/core/v1"
 
 	"github.com/coreos/prometheus-operator/pkg/k8sutil"
 	operatorFramework "github.com/coreos/prometheus-operator/test/framework"
