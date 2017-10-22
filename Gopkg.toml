@@ -80,3 +80,7 @@
 [[constraint]]
   name = "k8s.io/client-go"
   version = "v5.0.0"
+
+[[constraint]]
+  name = "github.com/appscode/mergo"
+  branch = "master"
