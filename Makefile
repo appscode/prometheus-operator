@@ -67,7 +67,7 @@ generate: jsonnet-docker
 
 deepcopy-gen:
 	go get -u -v -d k8s.io/code-generator/cmd/deepcopy-gen
-	cd $(GOPATH)/src/k8s.io/code-generator; git checkout release-1.8
+	cd $(GOPATH)/src/k8s.io/code-generator; git checkout release-1.9
 	go install k8s.io/code-generator/cmd/deepcopy-gen
 
 generate-deepcopy: deepcopy-gen
